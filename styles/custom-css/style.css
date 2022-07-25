@@ -1,0 +1,107 @@
+/* css import  */
+/* https://www.iloveimg.com/  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+/* common css  */
+:root {
+    --bs-black: #090c3c;
+    --bs-white: #fff;
+    --bs-light-white: #fcfcfc;
+    --bs-light-2: #f2f2f2;
+    --bs-blue: #0d9d80;
+    --bg-dark-green: #0d9d80;
+    --bg-features-1:#fff6d6;
+    --bg-features-2:#edbcf9;
+    --bg-features-3:#ddf5fc;
+    --bg-features-1:#dcf5e8;
+    --bg-features-1:#784925;
+    --bg-features-1:#fbffd4;
+    
+    --text-white: #fff;
+    --text-white: #000;
+    --text-light-1: #798081;
+    --text-light-2: #5e5e72;
+    --text-light-3: #a0a0a0;
+    --text-dark-gray: #12c4a0;
+    --text-orange: #ff5d20;
+    --text-yellow: #ffc100;
+  }
+  *{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }
+  body{
+    font-family: 'Poppins', sans-serif;
+  }
+  h2{
+    color: #fff !important;
+    font-size: 3rem !important;
+    font-weight: 700 !important;
+    text-align: center !important;
+  }
+  h3{
+    font-size: 2.3rem !important;
+    font-weight: 700 !important;
+    color: #0A0826 !important;
+    
+  }
+  h4{
+    font-size: 1.8rem !important;
+    font-weight: 600 !important;
+    color: #231D4F !important;
+    
+  }
+  p{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 22px;
+    color: #848199;
+
+  }
+  
+  .custom-btn-link{
+    background-color:  #3F87F5 !important;
+    color: #fff !important;
+    font-size: 1rem !important;
+    font-weight: 600 !important;
+  }
+  /* navbar custom css  */
+  .custom-navbar-style li{
+    margin:0  1rem;
+
+  }
+  .custom-navbar-style li a{
+    color: rgb(30, 22, 22);
+    font-size: 1.2rem;
+  }
+  
+  /* Our Package section  */
+  #active-card{
+    background-color: #3F87F5;
+    
+  }
+  #active-card .active-text{
+    color: #fff !important;
+  }
+  #active-card .card-custom-btn{
+    background-color: #fff;
+    
+  }
+  #active-card .active-btn{
+    color: #3F87F5 !important;
+  }
+  .card h3{
+    color:  #231D4F !important;
+    ;
+  }
+  .card .icon-color {
+    color:#5243C2;
+  }
+  .card .card-custom-btn{
+    background-color: #5243C2;
+    color: #fff;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    font-weight: 600;
+  }
+  
